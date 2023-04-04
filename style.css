@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFBA32;
+    text-align: center;
+}
+nav{
+    background-color: white;
+    height: 5pc;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    float: left;
+    height: 4pc;
+}
+.headings{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/045/438/541/original/priya-rai-food-gif-1.gif?1642708100");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5pc;
+    color: #325eff;
+}
+.headings h1{
+    text-shadow: 20px 10px 30px red;
+}
+.checked{
+    color: red;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    text-decoration: none;
+    font-size: 1.5pc;
+    font-weight: bold;
+}
+img{
+    height: 20pc;
+    width: 20pc;
+}
